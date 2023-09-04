@@ -40,6 +40,11 @@ return [
          * URL to an image that displays as a small square logo next to the title, above the table of contents.
          */
         'logo' => '',
+
+        /**
+         * If you want the title to be different to the app name you can set it here.
+         */
+        'title' => env('APP_NAME', 'Laravel')
     ],
 
     /*

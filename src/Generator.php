@@ -92,7 +92,7 @@ class Generator
         $openApi = OpenApi::make('3.1.0')
             ->setComponents($this->transformer->getComponents())
             ->setInfo(
-                InfoObject::make(config('app.name'))
+                InfoObject::make(config('scramble.ui.title'))
                     ->setVersion(config('scramble.info.version', '0.0.1'))
                     ->setDescription(config('scramble.info.description', ''))
             );
